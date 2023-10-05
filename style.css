@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+html {
+    height: 2000px;
+}
+
+body {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    font-family: 'Overpass', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background-image: radial-gradient(#232A34, #181E27);
+    border-radius: 30px;
+    max-width: 412px;
+    margin: 150px 7% 0 7%;
+}
+
+img {
+    width: 16.75px;
+    height: 16;
+}
+
+#after {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#thank-you {
+    width: 50%;
+    margin: auto;
+}
+
+#select-summary {
+    background-color: #262E38;
+    border-radius: 25px;
+    width: 50%;
+    margin: 2rem auto 1rem auto;
+}
+
+#after {
+    display: none;
+}
+
+#after p {
+    font-size: 1rem;
+}
+
+#select-summary p {
+    color: #FC7614;
+    font-size: 14px;
+}
+
+#circle {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #262E38;
+    border-radius: 50%;
+}
+
+h1 {
+    margin-top: 1em;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+h2 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 0.5em;
+}
+
+p {
+    font-size: 14px;
+    color: #969FAD;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+#buttons {
+    display: flex;
+    gap: 6%;
+    justify-content: space-evenly;
+}
+
+.oval {
+    color: #7C8798;
+    background-color: #262E38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 50%;
+    width: 11.5vw;
+    height: 11.5vw;
+    font-size: 14px;
+}
+
+.oval:hover {
+    background-color: #FC7614;
+    color: white;
+}
+
+section {
+    margin: 2em 6% 0 6%;
+}
+
+button {
+    display: block;
+    background-color: #FC7614;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 1.85px;
+    text-align: center;
+    width: 100%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 1em;
+    border-radius: 22.5px;
+    border: 0px;
+}
+
+button:active {
+    background-color: white;
+    color: #FC7614;
+}
+
+.checked {
+    background-color: #FC7614;
+    color: white;
+}
+
+@media screen and (min-width:470px) {
+    .oval {
+        width: 48px;
+        height: 48px;
+    }
+}
